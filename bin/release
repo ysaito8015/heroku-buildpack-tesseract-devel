@@ -4,5 +4,3 @@ cat <<EOF
 config_vars:
   BAR: "This is bar"
 EOF
-# これでBARがexportできてるのかなーと思ったが
-# 世の中そんなに甘くないようだ
