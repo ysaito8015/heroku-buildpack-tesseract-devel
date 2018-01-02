@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo "------> [blah, blah, blah, blah]"
+
+mkdir -p $1/.profile.d
+ENVVARS=$1/.profile.d/build-env.sh
+
+echo "export FOO=\"Hey, this variable is set by buildpack!!\"" >> $ENVVARS
